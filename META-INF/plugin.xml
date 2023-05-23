@@ -1,0 +1,43 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>com.github.borbelytamas.figarothemes</id>
+    <name>Figaro Themes</name>
+    <version>0.6.6</version>
+    <vendor email="borbelytamas.hu@gmail.com" url="https://github.com/TamasBorbely">Figaro</vendor>
+    <description><![CDATA[
+      FigaroThemes
+    ]]></description>
+    <change-notes><![CDATA[
+    ]]>
+    </change-notes>
+    <idea-version since-build="213"/>
+    <depends>com.intellij.modules.lang</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <bundledColorScheme path="/theme/FigaroLight"/>
+        <themeProvider id="FigaroLight" path="/theme/FigaroLight.theme.json"/>
+        <bundledColorScheme path="/theme/FigaroSalad"/>
+        <themeProvider id="FigaroSalad" path="/theme/FigaroSalad.theme.json"/>
+        <bundledColorScheme path="/theme/FigaroAurora"/>
+        <themeProvider id="FigaroAurora" path="/theme/FigaroAurora.theme.json"/>
+        <bundledColorScheme path="/theme/FigaroSakura"/>
+        <themeProvider id="FigaroSakura" path="/theme/FigaroSakura.theme.json"/>
+        <bundledColorScheme path="/theme/FigaroAutumn"/>
+        <themeProvider id="FigaroAutumn" path="/theme/FigaroAutumn.theme.json"/>
+        <bundledColorScheme path="/theme/FigaroBlackMamba"/>
+        <themeProvider id="FigaroBlackMamba" path="/theme/FigaroBlackMamba.theme.json"/>
+        <bundledColorScheme path="/theme/FigaroBlackMatcha"/>
+        <themeProvider id="FigaroBlackMatcha" path="/theme/FigaroBlackMatcha.theme.json"/>
+        <bundledColorScheme path="/theme/FigaroLilac"/>
+        <themeProvider id="FigaroLilac" path="/theme/FigaroLilac.theme.json"/>
+        <bundledColorScheme path="/theme/FigaroSpring"/>
+        <themeProvider id="FigaroSpring" path="/theme/FigaroSpring.theme.json"/>
+        <bundledColorScheme path="/theme/FigaroSoft"/>
+        <themeProvider id="FigaroSoft" path="/theme/FigaroSoft.theme.json"/>
+        <bundledColorScheme path="/theme/FigaroInvertRot1"/>
+        <themeProvider id="FigaroInvertRot1" path="/theme/FigaroInvertRot1.theme.json"/>
+        <bundledColorScheme path="/theme/FigaroInvertRot2"/>
+        <themeProvider id="FigaroInvertRot2" path="/theme/FigaroInvertRot2.theme.json"/>
+        <bundledColorScheme path="/theme/FigaroDarkness"/>
+        <themeProvider id="FigaroDarkness" path="/theme/FigaroDarkness.theme.json"/>
+    </extensions>
+</idea-plugin>
