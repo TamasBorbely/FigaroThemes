@@ -2,7 +2,7 @@
 <idea-plugin>
     <id>com.github.borbelytamas.figarothemes</id>
     <name>Figaro Themes</name>
-    <version>0.6.6</version>
+    <version>0.6.9</version>
     <vendor email="borbelytamas.hu@gmail.com" url="https://github.com/TamasBorbely">Figaro</vendor>
     <description><![CDATA[
       FigaroThemes
@@ -39,5 +39,9 @@
         <themeProvider id="FigaroInvertRot2" path="/theme/FigaroInvertRot2.theme.json"/>
         <bundledColorScheme path="/theme/FigaroDarkness"/>
         <themeProvider id="FigaroDarkness" path="/theme/FigaroDarkness.theme.json"/>
+        <bundledColorScheme path="/theme/FigaroForest"/>
+        <themeProvider id="FigaroForest" path="/theme/FigaroForest.theme.json"/>
+        <bundledColorScheme path="/theme/FigaroDarkFire"/>
+        <themeProvider id="FigaroDarkFire" path="/theme/FigaroDarkFire.theme.json"/>
     </extensions>
 </idea-plugin>
