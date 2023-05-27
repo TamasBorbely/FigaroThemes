@@ -2,12 +2,13 @@
 <idea-plugin>
     <id>com.github.borbelytamas.figarothemes</id>
     <name>Figaro Themes</name>
-    <version>0.6.9</version>
+    <version>0.7.0</version>
     <vendor email="borbelytamas.hu@gmail.com" url="https://github.com/TamasBorbely">Figaro</vendor>
     <description><![CDATA[
       FigaroThemes
     ]]></description>
     <change-notes><![CDATA[
+    - new themes: FigaroCherry, FigaroDarkFire, FigaroForest, FigaroDarkness, FigaroMatcha
     ]]>
     </change-notes>
     <idea-version since-build="213"/>
@@ -25,8 +26,8 @@
         <themeProvider id="FigaroAutumn" path="/theme/FigaroAutumn.theme.json"/>
         <bundledColorScheme path="/theme/FigaroBlackMamba"/>
         <themeProvider id="FigaroBlackMamba" path="/theme/FigaroBlackMamba.theme.json"/>
-        <bundledColorScheme path="/theme/FigaroBlackMatcha"/>
-        <themeProvider id="FigaroBlackMatcha" path="/theme/FigaroBlackMatcha.theme.json"/>
+        <bundledColorScheme path="/theme/FigaroMatcha"/>
+        <themeProvider id="FigaroMatcha" path="/theme/FigaroMatcha.theme.json"/>
         <bundledColorScheme path="/theme/FigaroLilac"/>
         <themeProvider id="FigaroLilac" path="/theme/FigaroLilac.theme.json"/>
         <bundledColorScheme path="/theme/FigaroSpring"/>
@@ -43,5 +44,7 @@
         <themeProvider id="FigaroForest" path="/theme/FigaroForest.theme.json"/>
         <bundledColorScheme path="/theme/FigaroDarkFire"/>
         <themeProvider id="FigaroDarkFire" path="/theme/FigaroDarkFire.theme.json"/>
+        <bundledColorScheme path="/theme/FigaroCherry"/>
+        <themeProvider id="FigaroCherry" path="/theme/FigaroCherry.theme.json"/>
     </extensions>
 </idea-plugin>
